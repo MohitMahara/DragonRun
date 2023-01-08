@@ -1,7 +1,7 @@
 var score = 0;
 var cross = true;
 var gameOverSound = new Audio('sounds/gameover.mp3');
-var audio = new Audio('/sounds/music.mp3');
+var audio = new Audio('sounds/music.mp3');
 
 
 document.querySelector(".up").addEventListener("click",()=>{
